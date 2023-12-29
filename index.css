@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+font-family: Verdana;
+background-color: #1B244A;
+text-align: center;
+
+
+}
+
+@font-face {
+  font-family: 'this'; 
+  src: url('this') format('woff2'), 
+       url('this') format('this');   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #EEEEEE;
+
+}
+
+.counter{
+    font-family: "this";
+    color: #F94F6D;
+   
+}
+
+#homeScore, #guestScore {
+    font-size: 90px;
+background-color: #080001;
+display: block
+    
+}
+
+h3{
+    font-size: 40px;
+    
+}
+button{
+    
+    font-family: "this";
+    color: #9AABD8;
+    background: transparent;
+    border-color: #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    border-width: 2px; 
+    box-shadow: none;
+    border-style: solid;
+    
+    
+    
+}
